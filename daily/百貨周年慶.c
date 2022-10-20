@@ -2,16 +2,16 @@
 int main()
 {
 	int n,total;
-	printf("請輸入消費金額:");
+	printf("How much did you pay:");
 	scanf("%d",&n);
 	if(n>3000)
 	{
 	total= 3000+(n-3000)*0.8;	
-	printf("應付金額%d",total);		
+	printf("total%d",total);		
 	}
 	else
 	{
-	printf("應付金額:%d",n);
+	printf("Total:%d",n);
 	}
 	return 0;
 } 
